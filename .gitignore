@@ -1,0 +1,28 @@
+# Eclipse specific
+.metadata
+
+*.class
+*.log
+
+# sbt specific
+.cache
+.history
+.lib/
+dist/*
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+
+# Scala-IDE specific
+.scala_dependencies
+.worksheet
+
+# ENSIME specific
+.ensime_cache/
+.ensime
+
+.metadata/.plugins/com.atlassian.connector.eclipse.bamboo.core/repositoryConfigurations
+.metadata/.plugins/com.atlassian.connector.eclipse.jira.core/serverCache/repositoryConfigurations
+RemoteSystemsTempFiles/.project
